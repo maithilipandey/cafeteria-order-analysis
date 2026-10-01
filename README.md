@@ -131,7 +131,7 @@ Branch 4 shows a **0% recorded cancellation rate**. This may indicate missing or
 
 Branch 3 has only **377 orders**, so its average ticket and cancellation rate should not be overinterpreted because of the very small sample size.
 
-![Revenue by Branch](01_revenue_by_branch.png)
+![Revenue by branch](outputs/01_revenue_by_branch.png)
 
 ---
 
@@ -146,7 +146,7 @@ Order volume is heavily concentrated on weekdays:
 
 The strong weekday/weekend difference is consistent with an **office or campus-style cafeteria**, although this cannot be confirmed from the dataset alone.
 
-![Orders by Weekday](03_orders_by_weekday.png)
+![Orders by weekday](outputs/03_orders_by_weekday.png)
 
 ---
 
@@ -160,7 +160,7 @@ The busiest observed hours include:
 
 This suggests that staffing, inventory, and counter capacity should be planned around these recurring demand peaks.
 
-![Orders by Hour](02_orders_by_hour.png)
+![Orders by hour](outputs/02_orders_by_hour.png)
 
 ---
 
@@ -168,7 +168,7 @@ This suggests that staffing, inventory, and counter capacity should be planned a
 
 Monthly order and revenue trends were analyzed to identify changes in demand throughout the year.
 
-![Monthly Trend](04_monthly_trend.png)
+![Monthly trend](outputs/04_monthly_trend.png)
 
 ---
 
@@ -182,7 +182,7 @@ Approximate order-channel distribution:
 
 The high mobile share indicates that digital ordering is an important part of the cafeteria ordering workflow.
 
-![Order Channel](06_order_channel.png)
+![Order channel](outputs/06_order_channel.png)
 
 ---
 
@@ -192,7 +192,7 @@ Payments are predominantly digital, with **Paytm accounting for approximately 40
 
 The source data contains capitalization inconsistencies such as `paytm` and `Paytm`. These should be standardized in a production data pipeline before reporting or aggregation.
 
-![Payment Mode](05_payment_mode.png)
+![Payment mode](outputs/05_payment_mode.png)
 
 ---
 
@@ -205,7 +205,7 @@ The source data contains capitalization inconsistencies such as `paytm` and `Pay
 
 The top items are dominated by tea and coffee products, while combination/meal items contribute significantly to overall revenue.
 
-![Top Dishes](07_top_dishes.png)
+![Top dishes](outputs/07_top_dishes.png)
 
 ---
 
@@ -255,7 +255,7 @@ The forecast reflects the strong weekday/weekend pattern observed in the histori
 
 The lower and upper values are **approximate uncertainty bounds based on backtest residual variability**, rather than formal statistical prediction intervals.
 
-![7-Day Forecast](08_forecast.png)
+![Forecast](outputs/08_forecast.png)
 
 ---
 
@@ -505,32 +505,3 @@ The forecasting component provides a simple baseline for short-term demand plann
 Prepared as part of the **Kanishka Software Pvt Ltd Internship Challenge**.
 
 **Tools:** Python · Pandas · Statsmodels · Matplotlib · Seaborn
-
-## Charts
-
-### Revenue by branch
-![Revenue by branch](outputs/01_revenue_by_branch.png)
-
-### Orders by hour of day
-![Orders by hour](outputs/02_orders_by_hour.png)
-
-### Orders by weekday
-![Orders by weekday](outputs/03_orders_by_weekday.png)
-
-### Monthly orders by branch
-![Monthly trend](outputs/04_monthly_trend.png)
-
-### Payment modes
-![Payment mode](outputs/05_payment_mode.png)
-
-### Order channel
-![Order channel](outputs/06_order_channel.png)
-
-### Top 10 dishes
-![Top dishes](outputs/07_top_dishes.png)
-
-### 7-day forecast (Branch 2)
-![Forecast](outputs/08_forecast.png)
-
-### Weekday x hour heatmap (Branch 2)
-![Heatmap](outputs/09_heatmap.png)
