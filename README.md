@@ -444,32 +444,32 @@ The queries were written for **SQLite-style analysis** and were not required for
 
 ### Visualizations
 
-#### Revenue by Branch
-![Revenue by Branch](01_revenue_by_branch.png)
+### Revenue by branch
+![Revenue by branch](outputs/01_revenue_by_branch.png)
 
-#### Orders by Hour
-![Orders by Hour](02_orders_by_hour.png)
+### Orders by hour of day
+![Orders by hour](outputs/02_orders_by_hour.png)
 
-#### Orders by Weekday
-![Orders by Weekday](03_orders_by_weekday.png)
+### Orders by weekday
+![Orders by weekday](outputs/03_orders_by_weekday.png)
 
-#### Monthly Trend
-![Monthly Trend](04_monthly_trend.png)
+### Monthly orders by branch
+![Monthly trend](outputs/04_monthly_trend.png)
 
-#### Payment Mode
-![Payment Mode](05_payment_mode.png)
+### Payment modes
+![Payment mode](outputs/05_payment_mode.png)
 
-#### Order Channel
-![Order Channel](06_order_channel.png)
+### Order channel
+![Order channel](outputs/06_order_channel.png)
 
-#### Top Dishes
-![Top Dishes](07_top_dishes.png)
+### Top 10 dishes
+![Top dishes](outputs/07_top_dishes.png)
 
-#### 7-Day Forecast
-![Forecast](08_forecast.png)
+### 7-day forecast (Branch 2)
+![Forecast](outputs/08_forecast.png)
 
-#### Branch/Time Heatmap
-![Heatmap](09_heatmap.png)
+### Weekday x hour heatmap (Branch 2)
+![Heatmap](outputs/09_heatmap.png)
 
 ---
 
