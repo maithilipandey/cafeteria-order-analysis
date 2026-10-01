@@ -1,5 +1,31 @@
 ﻿# Cafeteria Order Data: Analysis and 7-Day Forecast
 
+## 📌 Executive Summary
+
+This project analyzes cafeteria order data for the financial year **FY 2024–25**, covering approximately **5.96 million order records** across multiple branches and counters.
+
+The analysis focuses on:
+
+- Data extraction and cleaning from a large SQL dump
+- Exploratory Data Analysis (EDA)
+- Branch, time, payment, channel, and menu-item analysis
+- Identification of operational and customer-order patterns
+- Time-series forecasting of the next **7 days of orders** for a selected branch
+- Comparison of forecasting approaches using historical holdout data
+- Business-oriented insights and recommendations
+
+### 🎯 Key Findings
+
+- **Branch 1 and Branch 2** account for the majority of order volume in the dataset.
+- Order demand varies considerably by **branch, weekday, and operating hour**.
+- A relatively small group of menu items contributes a significant share of order volume.
+- Digital ordering channels represent a substantial proportion of total orders.
+- **Branch 10 shows a notably higher cancellation rate (~18%)** compared with the major branches and may warrant further operational investigation.
+- Average ticket size varies across branches, indicating differences in customer purchasing patterns.
+- Historical demand patterns were used to generate a **7-day forecast** for the selected branch.
+
+> **Note:** The findings above are descriptive observations from the available dataset and should be interpreted in the context of the provided data and its limitations.
+
 Kanishka Software internship challenge. Python (pandas, statsmodels, matplotlib, seaborn).
 
 ## 1. Approach
