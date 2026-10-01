@@ -65,3 +65,32 @@ Forecast, with an approximate 95% band from backtest residuals (see `outputs/for
 - `extract_csv.py`: streams the SQL dump into CSV
 - `analysis.py`: cleaning, EDA, forecast
 - `outputs/`: charts (01 to 09), `forecast_next_7_days.csv`, `branch_summary.csv`, `top_dishes.csv`, `REPORT_auto.md`
+
+## Charts
+
+### Revenue by branch
+![Revenue by branch](outputs/01_revenue_by_branch.png)
+
+### Orders by hour of day
+![Orders by hour](outputs/02_orders_by_hour.png)
+
+### Orders by weekday
+![Orders by weekday](outputs/03_orders_by_weekday.png)
+
+### Monthly orders by branch
+![Monthly trend](outputs/04_monthly_trend.png)
+
+### Payment modes
+![Payment mode](outputs/05_payment_mode.png)
+
+### Order channel
+![Order channel](outputs/06_order_channel.png)
+
+### Top 10 dishes
+![Top dishes](outputs/07_top_dishes.png)
+
+### 7-day forecast (Branch 2)
+![Forecast](outputs/08_forecast.png)
+
+### Weekday x hour heatmap (Branch 2)
+![Heatmap](outputs/09_heatmap.png)
