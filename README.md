@@ -61,6 +61,15 @@ Forecast, with an approximate 95% band from backtest residuals (see `outputs/for
 5. Standardise payment mode labels and push the mobile app, which already carries most orders.
 6. Next step for the forecast: add a holiday calendar and weekday-specific models, and forecast per branch.
 
+## How to run
+```bash
+pip install -r requirements.txt
+python extract_csv.py   # streams the 11 GB SQL dump into data/*.csv (set the BIG path inside the script)
+python analysis.py      # cleaning, EDA, forecast, charts into outputs/
+```
+
+- `queries.sql`: SQL equivalents of the main analyses (written for SQLite, not executed in this submission)
+
 ## Files
 - `extract_csv.py`: streams the SQL dump into CSV
 - `analysis.py`: cleaning, EDA, forecast
