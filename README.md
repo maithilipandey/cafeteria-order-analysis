@@ -1,5 +1,5 @@
 ﻿# Cafeteria Order Data: Analysis and 7-Day Forecast
-
+ 
 ## Executive Summary
 
 This project analyzes approximately **5.96 million cafeteria order records** from FY 2024–25 across multiple branches and counters. The analysis focuses on data extraction and cleaning, exploratory data analysis, branch and operational patterns, customer ordering behavior, and a simple **7-day demand forecast** for a selected branch.
